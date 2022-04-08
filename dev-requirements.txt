@@ -1,0 +1,2 @@
+mongomock==4.0.0
+pytest==7.0.1

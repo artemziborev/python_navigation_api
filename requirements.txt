@@ -1,0 +1,4 @@
+mongoengine==0.24.0
+flask==2.0.3
+flask-restx
+requests
