@@ -8,7 +8,6 @@ services:
       dockerfile: ./Dockerfile
     environment:
       DB_URI: "mongodb://admin:pwd@mongo:27017/getRoutes"
-#      DB_URI: "mongodb://mongo:27017/getRoutes"
     ports:
       - "8001:80"
     depends_on:
@@ -20,5 +19,3 @@ services:
     environment:
       MONGO_INITDB_ROOT_USERNAME: admin
       MONGO_INITDB_ROOT_PASSWORD: pwd
-    ports:
-      - "27018:27017"
