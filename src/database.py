@@ -8,5 +8,4 @@ def connect_to_database(db_uri: str) -> None:
         db_uri: target uri following the pattern:
             "mongodb://<username>:<password>@<host>:<port>/<database>"
     """
-    # connect(host=db_uri + "?authSource=admin")
-    connect(host=db_uri)
+    connect(host=db_uri + "?authSource=admin")

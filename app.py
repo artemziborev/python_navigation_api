@@ -11,10 +11,8 @@ from src.database import connect_to_database
 from src.routes import add_routes
 
 
-DB_URI = "mongodb://admin:pwd@mongo:27018/"
-
 connect_to_database(os.getenv("DB_URI"))
-# add_routes()
+add_routes()
 
 
 api = Api(app)
