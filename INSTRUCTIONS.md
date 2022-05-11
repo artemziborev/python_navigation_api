@@ -100,39 +100,3 @@ Example:
        "total_business_trips": 3
    }
    ```
-
-# How to run
-
-A base API with a DB connection already exist at `docker-compose.yml`. You just need to make changes on the python files.
-
-To run, execute the following command:
-   `docker-compose rm -f; docker-compose -f docker-compose.yml up --build --force-recreate` 
-   (It will clean up existing containers and force to be recreated)
- 
-To test your API you can check `http://127.0.0.1:8001/` on your browser.
-
-To run the example, run the script: `example.py` (`requests` lib is necessary)
-
-
-## How to test
-
-Install dependencies:
-1. Create a virtual env and activate it: `python3 -m venv env; source env/bin/activate`
-2. Install dependencies: `pip install -r requirements.txt -r dev-requirements.txt`
-3. Run tests: `pytest test/`
-
-
-# Deliverables
-
-* A README file explaining any modifications, decisions and algorithms used.
-* This entire folder as zip file.
-
-# Technologies
-* Feel free to use any 3rd-party library, just remember to justify the decision.
-* The code must be compatible with python3.8
-* The API must run using Flask (already set on the base source code)
-* The database must be MongoDB (already set on the base source code)
-
-Note: to test the docker-compose will be invoked, so guarantee it works.
-
-Happy coding!
