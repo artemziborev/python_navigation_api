@@ -1,6 +1,6 @@
-# Celus Python Challenge
+# Python Challenge
 
-Challenge for Python Backend developers. For description see INSTRUCTIONS.md.
+For description see INSTRUCTIONS.md.
 
 #Project description:
 
