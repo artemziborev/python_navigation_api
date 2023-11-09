@@ -1,12 +1,12 @@
-# Python Challenge
+# Python Navigation API
 
 For description see INSTRUCTIONS.md.
 
-#Project description:
+## Project description:
 
-For building RESTful API flask-restx library is used
+API Built with Flask
 
-#Best Path Calculation:
+## Best Path Calculation:
 
 Dijkstra algorithm is used to find best way accros graph where nodes are cities
 and distances are edges
